@@ -71,6 +71,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "An all-in-one AI productivity workspace: email drafts, meeting summaries, smart task plans, research, and chat.",
       },
+      { property: "og:title", content: "Aura — AI Workplace Productivity Assistant" },
+      { name: "twitter:title", content: "Aura — AI Workplace Productivity Assistant" },
+      { name: "description", content: "AI Workplace Studio is an integrated AI-powered dashboard for professionals to automate tasks." },
+      { property: "og:description", content: "AI Workplace Studio is an integrated AI-powered dashboard for professionals to automate tasks." },
+      { name: "twitter:description", content: "AI Workplace Studio is an integrated AI-powered dashboard for professionals to automate tasks." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c4301109-1043-4b76-a2e7-fc8df6e72ed9/id-preview-a39f2458--d0cf693d-bb77-4491-9365-241b3b498a2d.lovable.app-1779281115643.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c4301109-1043-4b76-a2e7-fc8df6e72ed9/id-preview-a39f2458--d0cf693d-bb77-4491-9365-241b3b498a2d.lovable.app-1779281115643.png" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
